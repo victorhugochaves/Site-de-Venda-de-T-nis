@@ -1,1 +1,62 @@
 # Site-de-Venda-de-T-nis
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de tênis</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <figure id="logo">
+            <img src="img/logo-tenis.png" alt="logo"> 
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a href="#">Asics</a></li>
+            </ul>
+        
+            <section id="search">
+                <input type="text" placeholder="Pesquisar..."><button>
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" alt="Search Icon" width="18" height="18"/>
+            </button>
+            </section>
+            
+        </nav>
+    </header>
+
+    <main>
+        <figure id="content">
+            <img src="img/tenis.png" alt="Tenis">
+        </figure>
+
+        <article>
+
+            <section id="text">
+
+                <h2>Nike Air Zoom Alphafly Next% Eliud Kipchoge</h2>
+                <p>
+                    O Nike Air Zoom Alphafly Next% Eliud Kipchoge é um tênis de corrida criado em homenagem a Eliud Kipchoge, primeiro homem a correr uma maratona em menos de 2 horas. Inspirado no modelo usado por ele no desafio INEOS 1:59, combina tecnologias avançadas como placa de carbono, Zoom Air e espuma ZoomX, com um design leve e responsivo. A edição especial traz detalhes que celebram sua conquista histórica, unindo inovação e homenagem em um só produto.
+                </p>
+                <section id="btn">
+                <button>Comprar</button>
+                </section>
+                
+            </section>
+              
+        </article>
+    </main>
+
+    <footer>
+        &copy; 2025 - Feito por Victor Hugo
+    </footer>
+
+</body>
+</html>
